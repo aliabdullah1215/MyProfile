@@ -1,43 +1,161 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Ali Alqahtani | Links</title>
- 
-  <!-- Open Graph tags: هذه هي البيانات التي سيقرأها لينكد إن -->
-  <meta property="og:title" content="Ali Alqahtani | Digital Governance & AI Decision Engineering" />
-  <meta property="og:description" content="Portfolio, insights, and professional links." />
-  <meta property="og:url" content="https://aliabdullah1215.github.io/MyProfile/" />
-  <meta property="og:type" content="website" />
- 
-  <link rel="canonical" href="https://bind.link/@ali-alqahtani" />
- 
-  <style>
-    body {
-      font-family: -apple-system, Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      background: #f4f2ee;
-      text-align: center;
-    }
-    a.btn {
-      background: #0a66c2;
-      color: white;
-      padding: 14px 28px;
-      border-radius: 24px;
-      text-decoration: none;
-      font-size: 18px;
-      margin-top: 20px;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ali Alqahtani</title>
+
+<!-- Open Graph: what LinkedIn reads -->
+<meta property="og:title" content="Ali Alqahtani | Customer Experience & Product Analytics" />
+<meta property="og:description" content="Welcome — tap through to my links." />
+<meta property="og:url" content="https://aliabdullah1215.github.io/MyProfile/" />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --paper:#f6f3ec;
+    --ink:#1b1a17;
+    --teal:#0f6e76;
+    --teal-deep:#0b4f55;
+    --line:#ded7c6;
+    --muted:#8a8272;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;height:100%;}
+
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+    position:relative;
+    overflow:hidden;
+  }
+
+  /* subtle scatter of connected dots, referencing data/analytics — kept quiet */
+  .field{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+  }
+  .field svg{ width:100%; height:100%; }
+  .field circle{ fill:var(--teal); opacity:0.16; }
+  .field line{ stroke:var(--teal); stroke-width:1; opacity:0.09; }
+
+  .wrap{
+    position:relative;
+    text-align:center;
+    max-width:420px;
+  }
+
+  .mark{
+    width:34px;
+    height:34px;
+    margin:0 auto 30px;
+  }
+
+  .greeting{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--teal);
+    margin-bottom:16px;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(34px, 6vw, 46px);
+    line-height:1.08;
+    margin:0 0 14px;
+    letter-spacing:-0.01em;
+  }
+
+  p.sub{
+    font-size:15.5px;
+    color:var(--muted);
+    line-height:1.6;
+    margin:0 0 40px;
+  }
+
+  a.cta{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    background:var(--ink);
+    color:var(--paper);
+    text-decoration:none;
+    font-size:15px;
+    font-weight:500;
+    padding:16px 30px;
+    border-radius:2px;
+    transition:background .2s ease, transform .2s ease, letter-spacing .2s ease;
+  }
+  a.cta svg{ width:15px; height:15px; transition:transform .2s ease; }
+  a.cta:hover, a.cta:focus-visible{
+    background:var(--teal-deep);
+    transform:translateY(-1px);
+  }
+  a.cta:hover svg, a.cta:focus-visible svg{ transform:translateX(3px); }
+  a.cta:focus-visible{ outline:2px solid var(--teal); outline-offset:3px; }
+
+  @media (prefers-reduced-motion: reduce){
+    a.cta, a.cta svg{ transition:none; }
+  }
+</style>
 </head>
 <body>
-  <h2>Ali Alqahtani</h2>
-  <p>Digital Governance & AI Decision Engineering</p>
-  <a class="btn" href="https://bind.link/@ali-alqahtani">عرض روابطي / View my links</a>
+
+  <div class="field" aria-hidden="true">
+    <svg viewBox="0 0 800 800" preserveAspectRatio="xMidYMid slice">
+      <line x1="90" y1="120" x2="230" y2="220"/>
+      <line x1="230" y1="220" x2="140" y2="330"/>
+      <line x1="650" y1="90" x2="580" y2="210"/>
+      <line x1="580" y1="210" x2="700" y2="260"/>
+      <line x1="120" y1="600" x2="250" y2="650"/>
+      <line x1="250" y1="650" x2="200" y2="740"/>
+      <line x1="680" y1="600" x2="600" y2="680"/>
+      <line x1="600" y1="680" x2="700" y2="740"/>
+      <circle cx="90" cy="120" r="4"/>
+      <circle cx="230" cy="220" r="4"/>
+      <circle cx="140" cy="330" r="4"/>
+      <circle cx="650" cy="90" r="4"/>
+      <circle cx="580" cy="210" r="4"/>
+      <circle cx="700" cy="260" r="4"/>
+      <circle cx="120" cy="600" r="4"/>
+      <circle cx="250" cy="650" r="4"/>
+      <circle cx="200" cy="740" r="4"/>
+      <circle cx="680" cy="600" r="4"/>
+      <circle cx="600" cy="680" r="4"/>
+      <circle cx="700" cy="740" r="4"/>
+    </svg>
+  </div>
+
+  <main class="wrap">
+    <svg class="mark" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+      <circle cx="17" cy="17" r="15.5" stroke="#0f6e76" stroke-width="1.4"/>
+      <circle cx="17" cy="17" r="3.2" fill="#0f6e76"/>
+    </svg>
+
+    <div class="greeting">Welcome</div>
+    <h1>Hi, I'm Ali.</h1>
+    <p class="sub">Customer experience &amp; product analytics — turning user data into decisions.</p>
+
+    <a class="cta" href="https://bind.link/@ali-alqahtani" target="_blank" rel="noopener">
+      View my links
+      <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </main>
+
 </body>
 </html>
